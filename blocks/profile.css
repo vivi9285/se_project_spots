@@ -1,0 +1,131 @@
+.profile {
+  display: flex;
+  padding: 34px 0 20px;
+  border-bottom: 1px solid rgba(33, 33, 33, 0.4);
+  font-family: "Poppins", serif;
+}
+
+.profile__avatar {
+  width: 190px;
+  height: 190px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.profile__details {
+  display: flex;
+  flex-direction: column;
+  width: 505px;
+  height: 190px;
+  gap: 20px;
+}
+
+.profile__name {
+  margin: 0;
+  margin-bottom: 12px;
+
+  width: 420px;
+  height: 32px;
+}
+
+/* .profile__description{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-clamp: 3;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-width: 420px;
+
+} */
+
+.profile__description {
+  margin: 0;
+  font-family: "Poppins", serif;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-clamp: 3;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: nowrap;
+}
+.profile__edit {
+  margin-top: auto;
+  background-color: transparent;
+  color: #212121;
+  border: none;
+  align-self: start;
+  width: 107.34px;
+  height: 16px;
+  white-space: nowrap;
+}
+
+.profile__edit-pen {
+  margin-right: 8px;
+}
+
+.profile__button {
+  background-color: rgba(33, 33, 33, 1);
+  border-radius: 10px;
+  width: 149px;
+  height: 52px;
+  color: rgba(252, 245, 229, 1);
+  font-size: 16px;
+  border: none;
+  margin-top: 138px;
+  margin-left: auto;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.profile__button-plus {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 627px) {
+  .profile {
+    flex-direction: column;
+    max-width: 288px;
+    height: 274px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .profile__details {
+    max-width: 288px;
+  }
+
+  .profile__avatar {
+    margin-bottom: 12px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .profile__name {
+    height: 20px;
+    margin-bottom: 6px;
+    align-self: center;
+  }
+
+  .profile__description {
+    height: 16px;
+    margin-bottom: 12px;
+
+  }
+
+  .profile__edit {
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 0;
+
+  }
+
+  .profile__button {
+    width: 288px;
+    margin-top: 0;
+  }
+}
