@@ -25,7 +25,7 @@
   height: 413px;
   object-fit: cover;
   display: block;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .card__content {
@@ -49,15 +49,22 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  margin: 0;
 }
 
 @media screen and (max-width: 627px) {
   .cards__list {
     grid-template-columns: repeat(auto-fit, 288px);
+    gap: 20px 10px;
   }
 
   .card {
     width: 288px;
-    height: 318px;
+    max-width: 318px;
+  }
+
+  .card__title {
+    font-size: 18px;
+    line-height: 22px;
   }
 }
