@@ -24,7 +24,7 @@
   font-family: "Poppins", Arial, sans-serif;
   font-size: 24px;
   line-height: 1.2;
-  width: 420px;
+  max-width: 420px;
   margin: 0 0 12px 0;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -59,21 +59,17 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-
   width: 149px;
   padding: 12px 20px;
-
   background-color: rgba(33, 33, 33, 1);
   border-radius: 8px;
   border: none;
   color: rgba(252, 245, 229, 1);
-
   font-family: "Poppins", Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
   text-align: center;
-
   margin-top: auto;
   margin-left: auto;
 }
@@ -88,29 +84,32 @@
   .profile {
     flex-direction: column;
     max-width: 288px;
-    height: 274px;
     align-items: center;
     text-align: center;
     padding-top: 20px;
   }
 
-  .profile__details {
-    max-width: 288px;
-  }
-
   .profile__avatar {
-    margin-bottom: 12px;
     height: 80px;
     width: 80px;
+    margin-right: 0;
+  }
+
+  .profile__details {
+    text-align: center;
+    margin-right: 0;
   }
 
   .profile__name {
+    margin-top: 12px;
     margin-bottom: 6px;
     align-self: center;
+    max-width: 288px;
   }
 
   .profile__description {
     margin-bottom: 12px;
+    font-size: 20px;
   }
 
   .profile__edit {
@@ -120,15 +119,6 @@
   }
 
   .profile__button {
-    width: 288px;
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 627px) {
-  .profile {
-    flex-direction: column;
-    max-width: 288px;
-    padding: 20px;
+    margin: 0 auto;
   }
 }
