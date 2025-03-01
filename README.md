@@ -22,7 +22,7 @@ Spots is a responsive web project designed to ensure all elements display correc
 Live Demo  
 
 View the deployed project on **GitHub Pages**:  
-[Live Project Link](https://vivin9285.github.io/project-3-spots/)  
+[Live Project Link](git@github.com:vivi9285/se_project_spots.git)
 
 
   

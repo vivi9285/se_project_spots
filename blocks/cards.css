@@ -1,6 +1,7 @@
 .cards {
   border-bottom: 1px solid rgba(33, 33, 33, 0.4);
   padding-top: 20px;
+  margin-bottom: 0;
 }
 
 .cards__list {
@@ -11,10 +12,6 @@
   grid-template-columns: repeat(auto-fit, 413px);
   gap: 40px 20px;
   justify-content: center;
-}
-
-.card {
-  margin-bottom: 0;
 }
 
 .card__image {
@@ -46,8 +43,9 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  max-width: 288px;
+  max-width: 413px;
   margin-top: 12px;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 627px) {
@@ -57,9 +55,7 @@
     margin-bottom: 20px;
   }
 
-
   .card__title {
     font-size: 16px;
-    line-height: 16px;
   }
 }
