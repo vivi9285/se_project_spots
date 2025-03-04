@@ -37,7 +37,14 @@
   opacity: 40%;
   background-color: transparent;
   border: none;
+  transition: opacity 0.3s ease, border 0.3s ease;
 }
+
+.card__button:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
 
 .card__title {
   font-size: 20px;
