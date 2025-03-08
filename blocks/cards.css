@@ -2,7 +2,6 @@
   border-bottom: 1px solid rgba(33, 33, 33, 0.4);
   padding-top: 20px;
   margin-bottom: 0;
-  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -17,55 +16,10 @@
   margin-bottom: 40px;
 }
 
-.card__image {
-  width: 100%;
-  height: 413px;
-  object-fit: cover;
-  display: block;
-  border-radius: 8px;
-}
-
-.card__content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.card__button {
-  background-image: url(../images/like_icon.svg);
-  height: 20px;
-  width: 23px;
-  opacity: 40%;
-  background-color: transparent;
-  border: none;
-  transition: opacity 0.3s ease, border 0.3s ease;
-}
-
-.card__button:hover {
-  opacity: 100%;
-  cursor: pointer;
-}
-
-
-.card__title {
-  font-size: 20px;
-  line-height: 24px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  max-width: 413px;
-  margin-top: 12px;
-  margin-bottom: 0;
-}
-
 @media screen and (max-width: 627px) {
-  .cards__list {
-    grid-template-columns: repeat(auto-fit, 288px);
-    gap: 20px 10px;
-    margin-bottom: 20px;
-  }
-
-  .card__title {
-    font-size: 16px;
-  }
+.cards__list {
+  grid-template-columns: repeat(auto-fit, 288px);
+  gap: 20px 10px;
+  margin-bottom: 20px;
+}
 }

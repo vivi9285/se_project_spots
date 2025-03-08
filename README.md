@@ -19,10 +19,11 @@ Spots is a responsive web project designed to ensure all elements display correc
 - **JavaScript** – Interactive elements  
 - **Git & GitHub** – Version control and deployment  
 - **Figma** – Design reference  
-Live Demo  
 
+## Live Demo  
 View the deployed project on **GitHub Pages**:  
-[Live Project Link](git@github.com:vivi9285/se_project_spots.git)
+[Live Project Link](https://vivi9285.github.io/se_project_spots/)
 
-
-  
+  ## Video Walkthrough  
+🎥 Watch the project walkthrough:  
+[Video Link Here] https://youtu.be/7v9Wn7YetZA?si=sCE1f3rpHhJgD6S4
