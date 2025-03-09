@@ -51,7 +51,8 @@
   line-height: 16px;
   margin-top: auto;
   background-color: transparent;
-  color: rgba(33, 33, 33, 0.4);
+  color: rgba(33, 33, 33, 1);
+  opacity: 0.8;
   border: none;
   align-self: start;
   height: 16px;
@@ -62,20 +63,9 @@
 
 .profile__edit:hover {
   color: rgba(33, 33, 33, 1);
-  cursor: pointer;
-}
-
-.profile__edit-pen{
-  opacity: 0.4;
-}
-
-.profile__edit:hover .profile__edit-pen {
   opacity: 1;
   cursor: pointer;
-
 }
-
-
 
 .profile__button {
   display: flex;
@@ -83,6 +73,7 @@
   justify-content: center;
   gap: 8px;
   width: 149px;
+  height: 52px;
   padding: 12px 20px;
   background-color: rgba(33, 33, 33, 1);
   border-radius: 8px;
@@ -129,9 +120,8 @@
   }
 
   .profile__name {
-    font-weight: 500;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 20px;
     margin-top: 12px;
     margin-bottom: 6px;
     align-self: center;
