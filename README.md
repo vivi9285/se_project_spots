@@ -26,4 +26,4 @@ View the deployed project on **GitHub Pages**:
 
   ## Video Walkthrough  
 🎥 Watch the project walkthrough:  
-[Video Link Here] (https://youtu.be/7v9Wn7YetZA?si=sCE1f3rpHhJgD6S4)
+[Video Link Here] (https://youtu.be/ZS-4nKKY5FE?si=BJmvmr6VDJprcHwF)

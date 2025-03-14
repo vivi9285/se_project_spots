@@ -4,7 +4,7 @@
   object-fit: cover;
   display: block;
   border-radius: 8px;
-  max-height: 413px;
+  height: 413px;
 }
 
 .card__content {
@@ -45,7 +45,6 @@
 @media screen and (max-width: 627px) {
 
   .card__image {
-    gap : 12px;
     max-height: 288px;
   }
 
