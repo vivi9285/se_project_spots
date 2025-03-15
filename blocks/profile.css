@@ -15,7 +15,7 @@
 .profile__details {
   display: flex;
   flex-direction: column;
-  width: 420px;
+  max-width: 420px;
 }
 
 .profile__name {
