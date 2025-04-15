@@ -23,7 +23,7 @@
           <h1 class="profile__name">Bessie Coleman</h1>
           <p class="profile__description">Civil Aviator
           </p>
-          <button type="button" class="profile__edit">
+          <button href="#profile__edit" type="button" class="profile__edit">
             <img src="./images/editpen.svg" alt="edit pen" class="profile__edit-pen">Edit Profile
           </button>
         </div>
@@ -89,7 +89,23 @@
     <footer class="footer">
       <p class="footer__text">2023 &#169; Sports</p>
     </footer>
-  </div>
+    <div id="profile-edit-modal" class="modal">
+      <div class="modal__container">
+        <div class="modal__header">
+          <h2 class="modal__title">Edit profile</h2>
+          <button type="button" class="modal__close-btn"></button>
+        </div>
+        <form class="modal__form">
+          <label for="profile-name-input"class="modal__label">Name
+            <input class="modal__input" id="profile-name-input" placeholder="Type your name"/>
+          </label>
+          <label for="" class="modal__label">Description
+            <input class="modal__input" id="profile-description-input" placeholder="Describe yourself"/>
+          </label>
+          <button type="submit" class="modal__submit-btn">Save</button>
+        </form>
+      </div>
+    </div>
   <script defer src="./scrip/index.js"></script>
 </body>
 </html>
