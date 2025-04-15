@@ -107,6 +107,7 @@
   }
   .modal__is-opened{
     padding-left: 0;
+    visibility: visible;
   }
 
   .modal__container {
