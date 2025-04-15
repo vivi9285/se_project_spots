@@ -21,3 +21,4 @@ closeButton.addEventListener("click", () => {
   console.log("Close the button")
   editProfileModal.classList.remove("modal__is-opened")
 })
+
