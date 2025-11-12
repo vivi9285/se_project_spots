@@ -1,0 +1,55 @@
+
+.card__image {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  height: 413px;
+}
+
+.card__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.card__button {
+  background-image: url(../images/like_icon.svg);
+  height: 20px;
+  width: 23px;
+  opacity: 40%;
+  background-color: transparent;
+  border: none;
+  transition: opacity 0.3s ease;
+}
+
+.card__button:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+
+.card__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(33, 33, 33, 1);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 353px;
+  margin: 0;
+}
+
+@media screen and (max-width: 627px) {
+
+  .card__image {
+    max-height: 288px;
+  }
+
+  .card__title {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
