@@ -22,7 +22,7 @@ closeButton.addEventListener("click", () => {
   editProfileModal.classList.remove("modal__is-opened")
 })
 
-const newPostBtn = document.querySelector(".add-card__button");
+const newPostBtn = document.querySelector(".add-card-button");
 const newPostModal = document.querySelector("#new-post-modal");
 
 editProfileButton.addEventListener("click", () => {
