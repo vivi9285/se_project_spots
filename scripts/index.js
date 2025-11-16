@@ -7,15 +7,14 @@ const initialCards =[
   {name:"Mountain house", link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/6-photo-by-moritz-feldmann-from-pexels.jpg"}
 ];
 
-console.log(initialCards);
-
-const editProfileButton = document.querySelector(".profile__edit")
-const editProfileModal = document.querySelector("#profile-edit-modal")
+const editProfileButton = document.querySelector(".profile__edit");
+const editProfileModal = document.querySelector("#profile-edit-modal");
 
 editProfileButton.addEventListener("click", () => {
-  console.log("Clicked the button")
-  editProfileModal.classList.add("modal__is-opened")
-})
+  nameInput.value = profileName.textContent;
+  descriptionInput.value = profileDescription.textContent;
+  openModal(editProfileModal);
+});
 const closeButton = document.querySelector(".modal__close-btn")
 closeButton.addEventListener("click", () => {
   console.log("Close the button")
@@ -29,6 +28,11 @@ editProfileButton.addEventListener("click", () => {
   console.log("Clicked the button")
   editProfileModal.classList.add("modal__new-post-btn")
 })
+editProfileButton.addEventListener("click", () => {
+  nameInput.value = profileName.textContent;
+  descriptionInput.value = profileDescription.textContent;
+  openModal(editProfileModal);
+});
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 
 closeButton.addEventListener("click", () => {
