@@ -29,8 +29,8 @@ const editProfileForm = editProfileModal.querySelector(".modal__form");
 
 function handleEditProfileSubmit(evt) {
   evt.preventDefault();
-  profileName.textContent = nameInput.value.trim();
-  profileDescription.textContent = descriptionInput.value.trim();
+  profileName.textContent = nameInput.value;
+  profileDescription.textContent = descriptionInput.value;
   closeModal(editProfileModal);
 }
 
@@ -40,15 +40,15 @@ const newPostBtn = document.querySelector(".add-card-button");
 const newPostModal = document.querySelector("#new-post-modal");
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 const newPostForm = newPostModal.querySelector(".modal__form");
-const postImageInput = document.querySelector("#profile-name-input"); // The image link input in new post modal
-const postCaptionInput = document.querySelector("#profile-description-input"); // The caption input in new post modal
+const postImageInput = document.querySelector("#modal__label");
+const postCaptionInput = document.querySelector("#modal__input");
 
 function openModal(modal) {
-  modal.classList.add('modal__is-opened');
+  modal.classList.add('modal_is-opened');
 }
 
 function closeModal(modal) {
-  modal.classList.remove('modal__is-opened');
+  modal.classList.remove('modal_is-opened');
 }
 
 newPostBtn.addEventListener('click', () => openModal(newPostModal));
@@ -56,8 +56,8 @@ newPostCloseBtn.addEventListener('click', () => closeModal(newPostModal));
 
 function handleNewPostSubmit(evt) {
   evt.preventDefault();
-  const imageUrl = postImageInput.value.trim();
-  const caption = postCaptionInput.value.trim();
+  const imageUrl = postImageInput.value;
+  const caption = postCaptionInput.value;
 
   console.log("New post image URL:", imageUrl);
   console.log("New post caption:", caption);
