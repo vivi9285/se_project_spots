@@ -40,8 +40,8 @@ const newPostBtn = document.querySelector(".add-card-button");
 const newPostModal = document.querySelector("#new-post-modal");
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 const newPostForm = newPostModal.querySelector(".modal__form");
-const postImageInput = document.querySelector("#modal__label");
-const postCaptionInput = document.querySelector("#modal__input");
+const postImageInput = document.querySelector("#newpost-url-input");
+const postCaptionInput = document.querySelector("#newpost-caption-input");
 
 function openModal(modal) {
   modal.classList.add('modal_is-opened');
